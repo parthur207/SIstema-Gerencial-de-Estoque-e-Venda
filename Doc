@@ -1,0 +1,182 @@
+# Documentação do Projeto: Sistema Gerencial de Estoque e Venda
+
+## Objetivo do Projeto
+
+O objetivo deste projeto é desenvolver um sistema gerencial de estoque e venda que permita a importação de dados de produtos, a adição e remoção de produtos do estoque, a geração de relatórios detalhados de estoque e vendas, e o registro de vendas e adições ao estoque. O sistema é projetado para ser utilizado por pequenas e médias empresas que precisam gerenciar de forma eficiente seu inventário e acompanhar suas vendas ao longo do ano.
+
+<br>
+
+## Linguagem Utilizada e Fundamentos
+
+A linguagem utilizada para o desenvolvimento deste projeto é C#. C# é uma linguagem de programação moderna, orientada a objetos, e fortemente tipada. É amplamente utilizada para desenvolvimento de aplicações desktop, web, e móveis devido à sua robustez e versatilidade.
+
+<br>
+
+## Bibliotecas Utilizadas
+
+O projeto utiliza as seguintes bibliotecas:
+
+- **System**: Biblioteca principal que fornece classes básicas e fundamentais para a aplicação.
+- **System.Collections.Generic**: Fornece classes para definir coleções fortemente tipadas que podem ser armazenadas em memória e acessadas de maneira eficiente.
+- **System.IO**: Fornece tipos que permitem a leitura e gravação em arquivos e fluxos de dados.
+
+<br>
+
+## Funcionalidades e Métodos
+
+### 1. Importacao
+
+Importa os dados de um arquivo especificado pelo usuário e atualiza os dicionários de estoque e vendas com base nas informações do arquivo.
+
+**Parâmetros**:
+
+- `ref string conteudo`
+- `ref Dictionary<string, int> Estoque`
+- `ref Dictionary<string, Dictionary<string, int>> Vendas`
+- `ref string ano`
+- `ref int venda_total_anual`
+- `ref Dictionary<string, int> Venda_produto`
+- `ref Dictionary<string, int> vendas_mensais`
+- `ref List<string> Produtos`
+
+**Lógica**:
+
+Lê o conteúdo do arquivo e processa linha por linha para extrair informações de produtos, estoque e vendas mensais.
+
+<br>
+
+### 2. ImportacaoManual
+
+Permite ao usuário inserir manualmente os dados de produtos, estoque e vendas mensais.
+
+**Parâmetros**:
+
+- `ref Dictionary<string, int> Estoque`
+- `ref Dictionary<string, Dictionary<string, int>> Vendas`
+- `ref string ano`
+- `ref int venda_total_anual`
+- `ref Dictionary<string, int> Venda_produto`
+- `ref List<string> Produtos`
+
+**Lógica**:
+
+Solicita ao usuário o ano, a quantidade de produtos, e as informações de estoque e vendas mensais para cada produto.
+
+<br>
+
+### 3. Addprod
+
+Adiciona um novo produto ao estoque e registra suas vendas mensais.
+
+**Parâmetros**:
+
+- `ref Dictionary<string, int> Estoque`
+- `ref Dictionary<string, Dictionary<string, int>> Vendas`
+- `ref string ano`
+- `ref int venda_total_anual`
+- `ref Dictionary<string, int> Venda_produto`
+- `ref List<string> Produtos`
+
+**Lógica**:
+
+Solicita ao usuário o nome do novo produto, a quantidade em estoque e as vendas mensais, atualizando os dicionários correspondentes.
+
+<br>
+
+### 4. Removeprod
+
+Remove um produto especificado pelo usuário do estoque e das vendas.
+
+**Parâmetros**:
+
+- `ref Dictionary<string, int> Estoque`
+- `ref Dictionary<string, Dictionary<string, int>> Vendas`
+- `ref int venda_total_anual`
+- `ref Dictionary<string, int> Venda_produto`
+- `ref List<string> Produtos`
+
+**Lógica**:
+
+Solicita ao usuário o nome do produto a ser removido e atualiza os dicionários removendo as entradas correspondentes.
+
+<br>
+
+### 5. RelatorioEstoqueVenda
+
+Gera e exibe um relatório do estoque e das vendas, podendo ser de um produto específico ou de todos os produtos.
+
+**Parâmetros**:
+
+- `ref Dictionary<string, int> Estoque`
+- `ref Dictionary<string, Dictionary<string, int>> Vendas`
+- `ref string ano`
+- `ref int venda_total_anual`
+- `ref Dictionary<string, int> Venda_produto`
+
+**Lógica**:
+
+Solicita ao usuário se deseja ver o relatório de um produto específico ou de todos os produtos e exibe as informações correspondentes.
+
+<br>
+
+### 6. RegistrarVenda
+
+Registra uma venda de um produto específico em um mês específico, atualizando o estoque e as vendas.
+
+**Parâmetros**:
+
+- `ref Dictionary<string, int> Estoque`
+- `ref Dictionary<string, Dictionary<string, int>> Vendas`
+- `ref int venda_total_anual`
+- `ref Dictionary<string, int> Venda_produto`
+
+**Lógica**:
+
+Solicita ao usuário o nome do produto, a quantidade de vendas e o mês, e atualiza os dicionários de vendas e estoque.
+
+<br>
+
+### 7. AdicaoEstoque
+
+Adiciona uma quantidade especificada ao estoque de um produto.
+
+**Parâmetros**:
+
+- `ref Dictionary<string, int> Estoque`
+
+**Lógica**:
+
+Solicita ao usuário o nome do produto e a quantidade a ser adicionada ao estoque, atualizando o dicionário de estoque.
+
+<br>
+
+### 8. Clear1 e Clear2
+
+Limpam os dados de importação e reiniciam os dicionários.
+
+**Parâmetros**:
+
+- `ref string conteudo` (apenas Clear1)
+- `ref Dictionary<string, int> Estoque`
+- `ref Dictionary<string, Dictionary<string, int>> Vendas`
+- `ref string ano`
+- `ref int venda_total_anual`
+- `ref Dictionary<string, int> Venda_produto`
+- `ref Dictionary<string, int> vendas_mensais` (apenas Clear1)
+- `ref List<string> Produtos`
+
+**Lógica**:
+
+Reinicializam os dicionários e variáveis para permitir uma nova importação.
+
+<br>
+
+## Estrutura do Código
+
+O código é estruturado em uma classe `Program`, contendo métodos estáticos que implementam as funcionalidades do sistema. O método `Main` serve como ponto de entrada da aplicação, gerenciando o loop principal de interação com o usuário e chamando os métodos apropriados com base na opção selecionada.
+
+<br>
+
+## Conclusão
+
+Esta documentação fornece uma visão geral do projeto de Sistema Gerencial de Estoque e Venda, detalhando o objetivo, a linguagem e as bibliotecas utilizadas, além de descrever as funcionalidades implementadas. Espera-se que esta documentação sirva como um guia claro e completo para entender e utilizar o sistema.
