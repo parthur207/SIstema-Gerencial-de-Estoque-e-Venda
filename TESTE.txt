@@ -1,0 +1,97 @@
+“Empresa X” - Relatório de Estoque e Venda
+(Arquivo Estrutural)
+
+ANO: 2024
+
+PRODUTOS:
+
+Camisa
+Camiseta
+Bermuda
+Calça
+Sapato
+
+ESTOQUE ATUAL:
+
+* Camisa: 48
+* Camiseta: 16
+* Bermuda: 34
+* Calça: 11
+* Sapato: 67
+
+VENDAS:
+
+Camisa:
+
+(Mês) Janeiro: 1
+(Mês) Fevereiro: 2
+(Mês) Março: 3
+(Mês) Abril: 4
+(Mês) Maio: 5
+(Mês) Junho: 6
+(Mês) Julho: 7
+(Mês) Agosto: 8
+(Mês) Setembro: 9
+(Mês) Outubro: 10
+(Mês) Novembro: 11
+(Mês) Dezembro: 12
+
+Camiseta:
+
+(Mês) Janeiro: 1
+(Mês) Fevereiro: 2
+(Mês) Março: 3
+(Mês) Abril: 4
+(Mês) Maio: 5
+(Mês) Junho: 6
+(Mês) Julho: 7
+(Mês) Agosto: 8
+(Mês) Setembro: 9
+(Mês) Outubro: 10
+(Mês) Novembro: 11
+(Mês) Dezembro: 12
+
+Bermuda:
+
+(Mês) Janeiro: 1
+(Mês) Fevereiro: 2
+(Mês) Março: 3
+(Mês) Abril: 4
+(Mês) Maio: 5
+(Mês) Junho: 6
+(Mês) Julho: 7
+(Mês) Agosto: 8
+(Mês) Setembro: 9
+(Mês) Outubro: 10
+(Mês) Novembro: 11
+(Mês) Dezembro: 12
+
+Calça:
+
+(Mês) Janeiro: 1
+(Mês) Fevereiro: 2
+(Mês) Março: 3
+(Mês) Abril: 4
+(Mês) Maio: 5
+(Mês) Junho: 6
+(Mês) Julho: 7 
+(Mês) Agosto: 8
+(Mês) Setembro: 9
+(Mês) Outubro: 10
+(Mês) Novembro: 11
+(Mês) Dezembro: 12
+
+Sapato:
+
+(Mês) Janeiro: 1
+(Mês) Fevereiro: 2
+(Mês) Março: 3
+(Mês) Abril: 4
+(Mês) Maio: 5
+(Mês) Junho: 6
+(Mês) Julho: 7
+(Mês) Agosto: 8
+(Mês) Setembro: 9
+(Mês) Outubro: 10
+(Mês) Novembro: 11
+(Mês) Dezembro: 12	

@@ -1,0 +1,97 @@
+“Empresa X” - Relatório de Estoque e Venda
+(Arquivo Estrutural)
+
+ANO: 2024
+
+PRODUTOS:
+
+Produto A
+Produto B
+Produto C
+Produto D
+Produto E
+
+ESTOQUE ATUAL:
+
+* Produto A: 1
+* Produto B: 2
+* Produto C: 3
+* Produto E: 5
+* Produto D: 4
+
+VENDAS:
+
+Produto A:
+
+(Mês) Janeiro: 10
+(Mês) Fevereiro: 11
+(Mês) Março: 12
+(Mês) Abril: 13
+(Mês) Maio: 14
+(Mês) Junho:15
+(Mês) Julho: 16
+(Mês) Agosto: 17
+(Mês) Setembro: 18
+(Mês) Outubro: 19
+(Mês) Novembro:20
+(Mês) Dezembro: 21
+
+Produto B:
+
+(Mês) Janeiro: 10
+(Mês) Fevereiro: 11
+(Mês) Março: 12
+(Mês) Abril: 13
+(Mês) Maio: 14
+(Mês) Junho:15
+(Mês) Julho: 16
+(Mês) Agosto: 17
+(Mês) Setembro: 18
+(Mês) Outubro: 19
+(Mês) Novembro:20
+(Mês) Dezembro: 21
+
+Produto C:
+
+(Mês) Janeiro: 10
+(Mês) Fevereiro: 11
+(Mês) Março: 12
+(Mês) Abril: 13
+(Mês) Maio: 14
+(Mês) Junho:15
+(Mês) Julho: 16
+(Mês) Agosto: 17
+(Mês) Setembro: 18
+(Mês) Outubro: 19
+(Mês) Novembro:20
+(Mês) Dezembro: 21
+
+Produto D:
+
+(Mês) Janeiro: 10
+(Mês) Fevereiro: 11
+(Mês) Março: 12
+(Mês) Abril: 13
+(Mês) Maio: 14
+(Mês) Junho:15
+(Mês) Julho: 16
+(Mês) Agosto: 17
+(Mês) Setembro: 18
+(Mês) Outubro: 19
+(Mês) Novembro:20
+(Mês) Dezembro: 21
+
+Produto E:
+
+(Mês) Janeiro: 10
+(Mês) Fevereiro: 11
+(Mês) Março: 12
+(Mês) Abril: 13
+(Mês) Maio: 14
+(Mês) Junho:15
+(Mês) Julho: 16
+(Mês) Agosto: 17
+(Mês) Setembro: 18
+(Mês) Outubro: 19
+(Mês) Novembro:20
+(Mês) Dezembro: 21
