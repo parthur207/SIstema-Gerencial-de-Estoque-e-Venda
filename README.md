@@ -31,7 +31,7 @@ Bibliotecas Utilizadas: System, System.Collections.Generic, System.IO
 Como Utilizar
 Clone o repositório:
 
-git clone https://github.com/parthur207/SGEV.git
+    git clone https://github.com/parthur207/SGEV.git
 
 Abra o projeto em seu ambiente de desenvolvimento C# preferido.
 Execute o arquivo principal Program.cs.
