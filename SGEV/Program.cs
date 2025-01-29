@@ -442,7 +442,7 @@ class Program
                 Console.WriteLine("\nOpção inválida. É necessário digitar um número entre 1 e 8.");
                 continue;
             }
-
+            //
             switch (op_number)
             {
                 case 1:
