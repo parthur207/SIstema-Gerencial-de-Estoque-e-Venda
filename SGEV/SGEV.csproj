@@ -10,10 +10,10 @@
   <ItemGroup>
     <Folder Include="Core\Interface\" />
     <Folder Include="Core\Entities\" />
-    <Folder Include="Data\Context\" />
     <Folder Include="Data\Models\" />
     <Folder Include="Data\Repository\" />
-    <Folder Include="Model\" />
+    <Folder Include="Enuns\" />
+    <Folder Include="File Structure\" />
     <Folder Include="Presentation\" />
     <Folder Include="Services\" />
   </ItemGroup>
