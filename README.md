@@ -46,7 +46,7 @@ Este projeto é um Sistema Gerencial de Estoque e Venda de Produtos desenvolvido
 
 1. Clone o repositório:
    ```bash
-    git clone https://github.com/parthur207/SGEV.git
+    git clone https://github.com/parthur207/Sistema-Gerencial-de-Estoque-e-Venda.git
 
 Abra o projeto em seu ambiente de desenvolvimento C# preferido.
 Execute o arquivo principal Program.cs.
